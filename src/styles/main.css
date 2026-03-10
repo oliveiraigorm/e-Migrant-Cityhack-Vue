@@ -1,0 +1,307 @@
+/* ============================================
+   e-Migrant — Modernized Clean Blog Theme
+   ============================================ */
+
+/* ---------- Base ---------- */
+body {
+  font-size: 1.125rem;
+  color: #212529;
+  font-family: 'Lora', 'Times New Roman', serif;
+}
+
+p {
+  line-height: 1.6;
+  margin: 1.5rem 0;
+}
+
+p a {
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 800;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #212529;
+  transition: color 0.2s ease;
+}
+
+a:focus,
+a:hover {
+  color: #0085a1;
+}
+
+blockquote {
+  font-style: italic;
+  color: #868e96;
+}
+
+::selection {
+  color: #fff;
+  background: #0085a1;
+  text-shadow: none;
+}
+
+/* ---------- Navbar ---------- */
+#mainNav {
+  border-bottom: 1px solid #e9ecef;
+  background-color: #fff;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#mainNav.scrolled {
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+#mainNav .navbar-brand {
+  font-weight: 800;
+  color: #343a40;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 0.75rem;
+  font-weight: 800;
+  padding: 0.75rem;
+  text-transform: uppercase;
+  color: #343a40;
+  border: 1px solid #343a40;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link {
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 0.625rem 1rem;
+}
+
+@media (min-width: 992px) {
+  #mainNav.at-top {
+    border-bottom: 1px solid transparent;
+    background: transparent;
+  }
+
+  #mainNav.at-top .navbar-brand {
+    color: #fff;
+  }
+
+  #mainNav.at-top .navbar-brand:hover {
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  #mainNav.at-top .navbar-nav > li.nav-item > a.nav-link {
+    color: #fff;
+  }
+
+  #mainNav.at-top .navbar-nav > li.nav-item > a.nav-link:hover {
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  #mainNav.at-top .btn-outline-light {
+    border-color: rgba(255, 255, 255, 0.7);
+    color: #fff;
+  }
+
+  #mainNav.at-top .btn-outline-light:hover {
+    background: #fff;
+    color: #0085a1;
+  }
+
+  #mainNav.at-top .btn-light {
+    background: #fff;
+    color: #0085a1;
+  }
+}
+
+/* ---------- Masthead / Page Header ---------- */
+.masthead {
+  position: relative;
+  margin-bottom: 3rem;
+  background: no-repeat center center;
+  background-color: #868e96;
+  background-size: cover;
+}
+
+.masthead .overlay {
+  position: absolute;
+  inset: 0;
+  background-color: #212529;
+  opacity: 0.5;
+}
+
+.masthead .masthead-content {
+  position: relative;
+  z-index: 1;
+  padding: 10rem 0 8rem;
+  color: #fff;
+  text-align: center;
+}
+
+.masthead .masthead-content h1 {
+  font-size: 2.75rem;
+  margin-top: 0;
+}
+
+.masthead .masthead-content .subheading {
+  font-size: 1.35rem;
+  font-weight: 300;
+  line-height: 1.3;
+  display: block;
+  margin-top: 0.625rem;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@media (min-width: 768px) {
+  .masthead .masthead-content {
+    padding: 12rem 0 10rem;
+  }
+
+  .masthead .masthead-content h1 {
+    font-size: 4.5rem;
+  }
+}
+
+/* ---------- Section Heading ---------- */
+.section-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 3rem;
+}
+
+/* ---------- Post Preview Cards ---------- */
+.post-preview {
+  padding: 1.5rem 0;
+}
+
+.post-preview a {
+  color: #212529;
+  text-decoration: none;
+}
+
+.post-preview a:hover {
+  color: #0085a1;
+}
+
+.post-preview .post-title {
+  font-size: 1.75rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.post-preview .post-subtitle {
+  font-weight: 300;
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+}
+
+.post-preview .post-meta {
+  font-size: 1rem;
+  font-style: italic;
+  color: #868e96;
+}
+
+@media (min-width: 768px) {
+  .post-preview .post-title {
+    font-size: 2rem;
+  }
+}
+
+/* ---------- Cards ---------- */
+.info-card {
+  border: none;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.06);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  overflow: hidden;
+}
+
+.info-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* ---------- Box Image (education / institutions) ---------- */
+.box-image {
+  height: 160px;
+  object-fit: contain;
+  margin-bottom: 0.75rem;
+}
+
+/* ---------- Floating Label Form ---------- */
+.floating-label-form-group {
+  position: relative;
+  margin-bottom: 0;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.floating-label-form-group input,
+.floating-label-form-group textarea {
+  font-size: 1.25em;
+  border: none;
+  border-radius: 0;
+  background: none;
+  box-shadow: none !important;
+  font-family: 'Lora', 'Times New Roman', serif;
+}
+
+/* ---------- Buttons ---------- */
+.btn {
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  border-radius: 0.375rem;
+}
+
+.btn-primary,
+.btn-primary:active {
+  background-color: #0085a1;
+  border-color: #0085a1;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #006a82;
+  border-color: #006a82;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  padding: 3rem 0 4rem;
+  background: #f8f9fa;
+}
+
+footer .copyright {
+  font-size: 0.85rem;
+  color: #868e96;
+}
+
+/* ---------- Caption ---------- */
+.caption {
+  font-size: 0.85rem;
+  font-style: italic;
+  display: block;
+  padding: 0.625rem;
+  text-align: center;
+}
+
+/* ---------- Smooth scroll ---------- */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ---------- Fade-in transition for router views ---------- */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.25s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
