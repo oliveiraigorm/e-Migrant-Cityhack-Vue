@@ -149,7 +149,3 @@ This project is licensed under the MIT License.
 ## Contact
 
 For support, questions, or contributions, please use the contact form on the platform or reach out through the repository's issue tracker.
-
----
-
-**Note**: This platform is part of a social initiative to leverage technology for solving real-world immigration challenges and promoting inclusive societies.
