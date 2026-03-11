@@ -4,7 +4,8 @@ import homeImg from '@/assets/img/home.jpg'
 </script>
 
 <template>
-  <PageHeader
+  <div>
+    <PageHeader
     :background-image="homeImg"
     title="e-Migrant"
     subtitle="By linking immigrants directly with the host society, we decrease unequal opportunities"
@@ -59,4 +60,5 @@ import homeImg from '@/assets/img/home.jpg'
       </div>
     </div>
   </section>
+  </div>
 </template>

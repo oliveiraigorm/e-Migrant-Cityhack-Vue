@@ -4,7 +4,8 @@ import legalImg from '@/assets/img/legal.jpg'
 </script>
 
 <template>
-  <PageHeader :background-image="legalImg" we-are="Legal" />
+  <div>
+    <PageHeader :background-image="legalImg" we-are="Legal" />
 
   <section class="container mb-5">
     <div class="row">
@@ -26,4 +27,5 @@ import legalImg from '@/assets/img/legal.jpg'
       </div>
     </div>
   </section>
+  </div>
 </template>

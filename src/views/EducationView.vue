@@ -13,7 +13,8 @@ const categories = [
 </script>
 
 <template>
-  <PageHeader :background-image="studentsImg" we-are="Education" />
+  <div>
+    <PageHeader :background-image="studentsImg" we-are="Education" />
 
   <section class="container mb-5">
     <div class="row g-4 justify-content-center">
@@ -31,4 +32,5 @@ const categories = [
       </div>
     </div>
   </section>
+  </div>
 </template>

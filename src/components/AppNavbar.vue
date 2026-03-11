@@ -1,14 +1,28 @@
 <script setup>
-import { ref, onMounted, onUnmounted } from 'vue'
+import { ref, watch, nextTick, onMounted, onUnmounted } from 'vue'
 import { useRoute } from 'vue-router'
+import { Collapse } from 'bootstrap'
 import logoImg from '@/assets/img/logo.png'
 
 const route = useRoute()
 const atTop = ref(true)
+const navbarCollapse = ref(null)
 
 function handleScroll() {
   atTop.value = window.scrollY < 50
 }
+
+// Close the mobile menu whenever the route changes
+watch(
+  () => route.fullPath,
+  async () => {
+    await nextTick()
+    const el = navbarCollapse.value
+    if (el && el.classList.contains('show')) {
+      Collapse.getOrCreateInstance(el).hide()
+    }
+  },
+)
 
 onMounted(() => {
   window.addEventListener('scroll', handleScroll, { passive: true })
@@ -44,7 +58,7 @@ onUnmounted(() => {
         Menu <i class="fas fa-bars ms-1"></i>
       </button>
 
-      <div id="navbarNav" class="collapse navbar-collapse">
+      <div id="navbarNav" ref="navbarCollapse" class="collapse navbar-collapse">
         <ul class="navbar-nav ms-auto align-items-lg-center">
           <li class="nav-item">
             <RouterLink class="nav-link" to="/jobs" active-class="active">Jobs</RouterLink>

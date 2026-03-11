@@ -4,7 +4,8 @@ import healthImg from '@/assets/img/health.jpeg'
 </script>
 
 <template>
-  <PageHeader :background-image="healthImg" we-are="Health" />
+  <div>
+    <PageHeader :background-image="healthImg" we-are="Health" />
 
   <section class="container mb-5">
     <div class="row">
@@ -25,4 +26,5 @@ import healthImg from '@/assets/img/health.jpeg'
       </div>
     </div>
   </section>
+  </div>
 </template>

@@ -1,6 +1,9 @@
 <script setup>
+import { useRoute } from 'vue-router'
 import AppNavbar from '@/components/AppNavbar.vue'
 import AppFooter from '@/components/AppFooter.vue'
+
+const route = useRoute()
 </script>
 
 <template>
@@ -8,7 +11,7 @@ import AppFooter from '@/components/AppFooter.vue'
   <main>
     <RouterView v-slot="{ Component }">
       <Transition name="fade" mode="out-in">
-        <component :is="Component" />
+        <component :is="Component" :key="route.fullPath" />
       </Transition>
     </RouterView>
   </main>

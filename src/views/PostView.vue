@@ -5,7 +5,8 @@ import postSampleImg from '@/assets/img/post-sample-image.jpg'
 </script>
 
 <template>
-  <PageHeader :background-image="postBgImg">
+  <div>
+    <PageHeader :background-image="postBgImg">
     <h1>Man must explore, and this is exploration at its greatest</h1>
     <h2 class="subheading">Problems look mighty small from 150 miles up</h2>
     <span class="d-block mt-3 fst-italic" style="font-size: 1.1rem">
@@ -113,4 +114,5 @@ import postSampleImg from '@/assets/img/post-sample-image.jpg'
       </div>
     </div>
   </article>
+  </div>
 </template>

@@ -14,7 +14,8 @@ const courses = [
 </script>
 
 <template>
-  <PageHeader :background-image="workImg" we-are="Work" />
+  <div>
+    <PageHeader :background-image="workImg" we-are="Work" />
 
   <section class="container mb-5">
     <div class="row">
@@ -40,4 +41,5 @@ const courses = [
       </div>
     </div>
   </section>
+  </div>
 </template>

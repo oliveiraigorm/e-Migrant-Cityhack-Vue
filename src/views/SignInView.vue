@@ -15,7 +15,8 @@ function handleLogin() {
 </script>
 
 <template>
-  <PageHeader :background-image="helloImg" title="Welcome Back!" />
+  <div>
+    <PageHeader :background-image="helloImg" title="Welcome Back!" />
 
   <section class="container mb-5">
     <div class="row">
@@ -50,4 +51,5 @@ function handleLogin() {
       </div>
     </div>
   </section>
+  </div>
 </template>

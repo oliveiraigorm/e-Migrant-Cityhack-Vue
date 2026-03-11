@@ -24,7 +24,8 @@ function handleSubmit() {
 </script>
 
 <template>
-  <PageHeader
+  <div>
+    <PageHeader
     :background-image="contactImg"
     title="Contact Us"
     subtitle="Have questions?"
@@ -92,4 +93,5 @@ function handleSubmit() {
       </div>
     </div>
   </section>
+  </div>
 </template>

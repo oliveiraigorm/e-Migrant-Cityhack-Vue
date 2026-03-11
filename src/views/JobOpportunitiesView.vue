@@ -12,7 +12,8 @@ const jobs = [
 </script>
 
 <template>
-  <PageHeader :background-image="workImg" we-are="Work" />
+  <div>
+    <PageHeader :background-image="workImg" we-are="Work" />
 
   <section class="container mb-5">
     <div class="row">
@@ -45,4 +46,5 @@ const jobs = [
       </div>
     </div>
   </section>
+  </div>
 </template>

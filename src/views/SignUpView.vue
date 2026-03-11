@@ -36,7 +36,8 @@ function submitPartner() {
 </script>
 
 <template>
-  <PageHeader :background-image="joinImg" title="Join Us!" />
+  <div>
+    <PageHeader :background-image="joinImg" title="Join Us!" />
 
   <section class="container mb-5">
     <div class="row">
@@ -195,4 +196,5 @@ function submitPartner() {
       </div>
     </div>
   </section>
+  </div>
 </template>

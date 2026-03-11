@@ -4,7 +4,8 @@ import iptImg from '@/assets/img/ipt.jpg'
 </script>
 
 <template>
-  <PageHeader :background-image="iptImg" title="Instituto Politecnico de Tomar" />
+  <div>
+    <PageHeader :background-image="iptImg" title="Instituto Politecnico de Tomar" />
 
   <section class="container mb-5">
     <div class="row">
@@ -106,4 +107,5 @@ import iptImg from '@/assets/img/ipt.jpg'
       </div>
     </div>
   </section>
+  </div>
 </template>

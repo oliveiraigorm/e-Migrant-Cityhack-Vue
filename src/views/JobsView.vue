@@ -5,7 +5,8 @@ import workImg from '@/assets/img/work.jpeg'
 </script>
 
 <template>
-  <PageHeader :background-image="workImg" we-are="Work" />
+  <div>
+    <PageHeader :background-image="workImg" we-are="Work" />
 
   <section class="container mb-5">
     <div class="row">
@@ -30,4 +31,5 @@ import workImg from '@/assets/img/work.jpeg'
       </div>
     </div>
   </section>
+  </div>
 </template>

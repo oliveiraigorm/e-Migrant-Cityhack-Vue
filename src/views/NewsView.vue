@@ -4,7 +4,8 @@ import studentsImg from '@/assets/img/students.jpg'
 </script>
 
 <template>
-  <PageHeader :background-image="studentsImg" we-are="Education" />
+  <div>
+    <PageHeader :background-image="studentsImg" we-are="Education" />
 
   <section class="container mb-5">
     <div class="row">
@@ -24,4 +25,5 @@ import studentsImg from '@/assets/img/students.jpg'
       </div>
     </div>
   </section>
+  </div>
 </template>

@@ -11,7 +11,8 @@ const categories = [
 </script>
 
 <template>
-  <PageHeader :background-image="communityImg" we-are="Community" />
+  <div>
+    <PageHeader :background-image="communityImg" we-are="Community" />
 
   <section class="container mb-5">
     <div class="row">
@@ -23,4 +24,5 @@ const categories = [
       </div>
     </div>
   </section>
+  </div>
 </template>
