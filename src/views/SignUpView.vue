@@ -116,7 +116,7 @@ function submitPartner() {
                       required
                     />
                   </div>
-                  <button class="btn btn-primary w-100" type="submit">Sign up</button>
+                  <button class="btn btn-primary w-100" type="submit">Sign Up</button>
                 </form>
               </div>
             </div>
@@ -187,7 +187,7 @@ function submitPartner() {
                       required
                     />
                   </div>
-                  <button class="btn btn-primary w-100" type="submit">Sign up</button>
+                  <button class="btn btn-primary w-100" type="submit">Sign Up</button>
                 </form>
               </div>
             </div>

@@ -8,7 +8,7 @@ const searchQuery = ref('')
 
 const courses = [
   { title: 'Web Development Course', subtitle: 'Learn CSS and HTML online' },
-  { title: 'Electrical Repair Course', subtitle: 'Join our workshop and learn how to do electrical repair' },
+  { title: 'Electrical Repair Course', subtitle: 'Join our workshop and learn how to do electrical repairs' },
   { title: 'Bakery Class', subtitle: 'Learn the basics of baking' },
 ]
 </script>

@@ -20,7 +20,7 @@ import legalImg from '@/assets/img/legal.jpg'
           </p>
           <p>
             To get your NIF, you need to go to the
-            <strong>finance office</strong> (Financas) of your city and show your
+            <strong>finance office</strong> (Finanças) of your city and show your
             <strong>visa</strong> and <strong>proof of address</strong>.
           </p>
         </article>

@@ -36,7 +36,7 @@ import postSampleImg from '@/assets/img/post-sample-image.jpg'
 
         <p>
           What was most significant about the lunar voyage was not that man set
-          foot on the Moon but that they set eye on the earth.
+          foot on the Moon but that they set eyes on the Earth.
         </p>
 
         <p>

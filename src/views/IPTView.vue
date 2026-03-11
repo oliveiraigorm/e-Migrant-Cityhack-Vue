@@ -22,7 +22,7 @@ import iptImg from '@/assets/img/ipt.jpg'
                 aria-expanded="true"
                 aria-controls="collapseOne"
               >
-                All you need for your internship in IPT
+                All you need for your internship at IPT
               </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#iptAccordion">
@@ -86,7 +86,7 @@ import iptImg from '@/assets/img/ipt.jpg'
                       rel="noopener"
                       class="text-decoration-none"
                     >
-                      <i class="fas fa-file-word me-2 text-primary"></i>Application Form for Accommodation inside IPT
+                      <i class="fas fa-file-word me-2 text-primary"></i>Application Form for Accommodation at IPT
                     </a>
                   </li>
                   <li>

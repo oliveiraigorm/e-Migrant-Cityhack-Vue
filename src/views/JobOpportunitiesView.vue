@@ -6,7 +6,7 @@ import workImg from '@/assets/img/work.jpeg'
 const searchQuery = ref('')
 
 const jobs = [
-  { title: 'Web Developer', subtitle: 'Work on IT customer support' },
+  { title: 'Web Developer', subtitle: 'Work in IT customer support' },
   { title: 'Contractor', subtitle: 'Work on construction of a building or other facilities' },
 ]
 </script>

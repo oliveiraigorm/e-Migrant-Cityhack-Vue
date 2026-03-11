@@ -11,9 +11,9 @@ import studentsImg from '@/assets/img/students.jpg'
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
         <article class="post-preview">
-          <h2 class="post-title">CityHack 2020 Soon Will Begin</h2>
+          <h2 class="post-title">CityHack 2020 Will Begin Soon</h2>
           <h3 class="post-subtitle">
-            The first 100% online edition of the CityHack
+            The first 100% online edition of CityHack
           </h3>
           <p class="post-meta">
             Check the link below:

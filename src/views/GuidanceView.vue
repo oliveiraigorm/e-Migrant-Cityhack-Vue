@@ -14,9 +14,9 @@ import studentsImg from '@/assets/img/students.jpg'
         <article class="post-preview">
           <h2>How to get into a university in Portugal</h2>
           <p>
-            You will need to fill and send the
+            You will need to fill out and send the
             <strong>application form</strong> and the
-            <strong>learning agreement for study or traineeship</strong>. Each
+            <strong>learning agreement for studies or traineeships</strong>. Each
             institution has its own form, but don&rsquo;t worry &mdash; we have
             them right here! You just need to find your institution.
           </p>

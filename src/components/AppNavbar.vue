@@ -85,7 +85,7 @@ onUnmounted(() => {
           </li>
           <li class="nav-item ms-lg-2">
             <RouterLink to="/signup" class="btn btn-sm btn-primary my-2 my-lg-0">
-              Sign up
+              Sign Up
             </RouterLink>
           </li>
         </ul>
